@@ -1,0 +1,23 @@
+a) 90.2
+
+b) Convert the numerical frequency into a string.  FLOAT_TO_STRING = str(Radio[0])
+
+c) |
+   |
+   V
+   
+i = 0
+HIGHEST = Radio[0]
+LOWEST = Radio[0]
+loop while i < 4
+	i = i + 1
+	if HIGHEST >= Radio[i] then
+		HIGHEST = Radio[i]
+	end if
+	if LOWEST <= Radio[i] then
+		LOWEST = Radio[i]
+	end if
+RANGE_CALCULATION = HIGHEST - LOWEST
+output RANGE_CALCULATION
+end while
+
