@@ -1,6 +1,6 @@
 a) 90.2
 
-b) One can create a variable to then convert the numerical frequency/float into a string.  FLOAT_TO_STRING = str(Radio[0])
+b) One can create a variable to then convert the numerical frequency/float to a string value, and thus cause it to be stored as a string.  FLOAT_TO_STRING = str(Radio[0])
 
 c) |
    |
