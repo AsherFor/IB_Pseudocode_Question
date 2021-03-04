@@ -1,6 +1,6 @@
 a) 90.2
 
-b) Convert the numerical frequency into a string.  FLOAT_TO_STRING = str(Radio[0])
+b) One can create a variable to then convert the numerical frequency/float into a string.  FLOAT_TO_STRING = str(Radio[0])
 
 c) |
    |
@@ -9,12 +9,12 @@ c) |
 i = 0
 HIGHEST = Radio[0]
 LOWEST = Radio[0]
-loop while i < 4
+loop while i < 6
 	i = i + 1
-	if HIGHEST >= Radio[i] then
+	if HIGHEST < Radio[i] then
 		HIGHEST = Radio[i]
 	end if
-	if LOWEST <= Radio[i] then
+	if LOWEST > Radio[i] then
 		LOWEST = Radio[i]
 	end if
 RANGE_CALCULATION = HIGHEST - LOWEST
